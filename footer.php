@@ -2,8 +2,7 @@
 <!-- ZIMPY FOOTER -->
 <!-- ========================================= -->
 
-<footer class="bg-zimpy-cocoa text-white">
-
+<footer class="bg-[#351B16] text-white">
 
     <!-- ========================================= -->
     <!-- MAIN FOOTER -->
@@ -11,26 +10,24 @@
 
     <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
-        <div class="py-14 lg:py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
-
+        <div
+            class="py-14 sm:py-16 lg:py-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8"
+        >
 
             <!-- ========================================= -->
-            <!-- BRAND COLUMN -->
+            <!-- BRAND -->
             <!-- ========================================= -->
 
             <div class="lg:col-span-4">
 
                 <!-- Logo -->
 
-                <a
-                    href="#"
-                    class="inline-block"
-                >
+                <a href="/" class="inline-block">
 
                     <img
-                        src="assets/Zimpy logo_Final.png"
+                        src="/images/zimpy-logo.png"
                         alt="Zimpy"
-                        class="w-auto h-20 object-contain"
+                        class="w-28 sm:w-32 h-auto"
                     >
 
                 </a>
@@ -39,15 +36,15 @@
                 <!-- Description -->
 
                 <p
-                    class="font-montserrat text-sm text-white/60 leading-7 mt-5 max-w-sm"
+                    class="mt-5 max-w-sm font-montserrat text-sm leading-6 text-white/60"
                 >
-                    Bringing sweetness to businesses with quality
-                    chocolates, toffees and confectionery products crafted
-                    for every occasion.
+                    Bringing quality chocolate and confectionery
+                    products to businesses, retailers and gifting
+                    partners.
                 </p>
 
 
-                <!-- Social Icons -->
+                <!-- Social Links -->
 
                 <div class="flex items-center gap-3 mt-7">
 
@@ -56,33 +53,39 @@
                     <a
                         href="#"
                         aria-label="Instagram"
-                        class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-zimpy-red hover:border-zimpy-red hover:text-white transition-all duration-300"
+                        class="w-9 h-9 rounded-full border border-white/15 flex items-center justify-center text-white/60 hover:text-[#C9A227] hover:border-[#C9A227] transition-all duration-300"
                     >
 
                         <svg
-                            class="w-5 h-5"
+                            class="w-4 h-4"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24"
                         >
+
                             <rect
-                                width="20"
-                                height="20"
-                                x="2"
-                                y="2"
+                                x="3"
+                                y="3"
+                                width="18"
+                                height="18"
                                 rx="5"
-                                ry="5"
+                                stroke-width="1.5"
                             />
 
                             <circle
                                 cx="12"
                                 cy="12"
                                 r="4"
+                                stroke-width="1.5"
                             />
 
-                            <path
-                                d="M17.5 6.5h.01"
+                            <circle
+                                cx="17.5"
+                                cy="6.5"
+                                r="1"
+                                fill="currentColor"
                             />
+
                         </svg>
 
                     </a>
@@ -93,17 +96,19 @@
                     <a
                         href="#"
                         aria-label="Facebook"
-                        class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-zimpy-red hover:border-zimpy-red hover:text-white transition-all duration-300"
+                        class="w-9 h-9 rounded-full border border-white/15 flex items-center justify-center text-white/60 hover:text-[#C9A227] hover:border-[#C9A227] transition-all duration-300"
                     >
 
                         <svg
-                            class="w-5 h-5"
+                            class="w-4 h-4"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                         >
+
                             <path
-                                d="M14 8h3V4h-3c-3.31 0-5 1.69-5 5v3H6v4h3v8h4v-8h3l1-4h-4V9c0-.55.45-1 1-1z"
+                                d="M14 8h3V4h-3c-3.31 0-5 1.69-5 5v3H6v4h3v8h4v-8h3.5l.5-4H13V9c0-.67.33-1 1-1z"
                             />
+
                         </svg>
 
                     </a>
@@ -114,17 +119,19 @@
                     <a
                         href="#"
                         aria-label="LinkedIn"
-                        class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/70 hover:bg-zimpy-red hover:border-zimpy-red hover:text-white transition-all duration-300"
+                        class="w-9 h-9 rounded-full border border-white/15 flex items-center justify-center text-white/60 hover:text-[#C9A227] hover:border-[#C9A227] transition-all duration-300"
                     >
 
                         <svg
-                            class="w-5 h-5"
+                            class="w-4 h-4"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                         >
+
                             <path
-                                d="M6.5 8.5A2.5 2.5 0 1 0 6.5 3a2.5 2.5 0 0 0 0 5.5zM4 10h5v11H4V10zm8 0h4.8v1.5h.1c.7-1.1 2.3-2.2 4.7-2.2 5 0 5.9 3.3 5.9 7.6V21h-5v-3.7c0-.9 0-2.1-.1-3.2-.1-1.1-.7-1.8-1.9-1.8-1.2 0-2 1-2 2.9V21h-5V10z"
+                                d="M6.5 8.5A2.5 2.5 0 1 0 6.5 3a2.5 2.5 0 0 0 0 5.5zM4 10h5v10H4V10zm8 0h4.8v1.4h.1c.7-1 2-1.9 4.1-1.9 4.4 0 5.2 2.9 5.2 6.7V20h-5v-3.4c0-.8 0-1.8-1.1-1.8s-1.2.9-1.2 1.8V20h-5V10z"
                             />
+
                         </svg>
 
                     </a>
@@ -134,6 +141,7 @@
             </div>
 
 
+
             <!-- ========================================= -->
             <!-- QUICK LINKS -->
             <!-- ========================================= -->
@@ -141,18 +149,18 @@
             <div class="lg:col-span-2">
 
                 <h3
-                    class="font-montserrat text-sm font-bold uppercase tracking-wider text-[#C9A227] mb-5"
+                    class="font-montserrat text-xs font-semibold uppercase tracking-[0.18em] text-[#C9A227] mb-6"
                 >
                     Quick Links
                 </h3>
 
 
-                <ul class="space-y-3">
+                <ul class="space-y-3.5">
 
                     <li>
                         <a
-                            href="#"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
+                            href="/"
+                            class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300"
                         >
                             Home
                         </a>
@@ -160,8 +168,8 @@
 
                     <li>
                         <a
-                            href="#about"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
+                            href="/about.html"
+                            class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300"
                         >
                             About Us
                         </a>
@@ -169,26 +177,17 @@
 
                     <li>
                         <a
-                            href="#products"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
+                            href="/products.html"
+                            class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300"
                         >
-                            Products
+                            Our Products
                         </a>
                     </li>
 
                     <li>
                         <a
-                            href="#manufacturing"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
-                        >
-                            Manufacturing
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            href="#contact"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
+                            href="/contact.html"
+                            class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300"
                         >
                             Contact Us
                         </a>
@@ -199,79 +198,134 @@
             </div>
 
 
+
             <!-- ========================================= -->
-            <!-- PRODUCTS -->
+            <!-- OUR PRODUCTS -->
             <!-- ========================================= -->
 
-            <div class="lg:col-span-2">
+            <div class="lg:col-span-3">
 
                 <h3
-                    class="font-montserrat text-sm font-bold uppercase tracking-wider text-[#C9A227] mb-5"
+                    class="font-montserrat text-xs font-semibold uppercase tracking-[0.18em] text-[#C9A227] mb-6"
                 >
-                    Products
+                    Our Products
                 </h3>
 
 
-                <ul class="space-y-3">
+                <div class="grid grid-cols-2 gap-x-6 gap-y-3">
 
-                    <li>
-                        <a
-                            href="#"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
-                        >
-                            Chocolates
-                        </a>
-                    </li>
+                    <a
+                        href="/products/lovita.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Lovita
+                    </a>
 
-                    <li>
-                        <a
-                            href="#"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
-                        >
-                            Toffees
-                        </a>
-                    </li>
+                    <a
+                        href="/products/dairy-luxe.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Dairy Luxe
+                    </a>
 
-                    <li>
-                        <a
-                            href="#"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
-                        >
-                            Candies
-                        </a>
-                    </li>
+                    <a
+                        href="/products/gloria.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Gloria
+                    </a>
 
-                    <li>
-                        <a
-                            href="#"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
-                        >
-                            Lollipops
-                        </a>
-                    </li>
+                    <a
+                        href="/products/choco-surfer.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Choco Surfer
+                    </a>
 
-                    <li>
-                        <a
-                            href="#"
-                            class="font-montserrat text-sm text-white/60 hover:text-zimpy-gold transition-colors duration-200"
-                        >
-                            Private Label
-                        </a>
-                    </li>
+                    <a
+                        href="/products/gracia.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Gracia
+                    </a>
 
-                </ul>
+                    <a
+                        href="/products/choco-lush.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Choco Lush
+                    </a>
+
+                    <a
+                        href="/products/le-reve.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Le Reve
+                    </a>
+
+                    <a
+                        href="/products/orlen.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Orlen
+                    </a>
+
+                    <a
+                        href="/products/greetings.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Greetings
+                    </a>
+
+                    <a
+                        href="/products/goa-special.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Goa Special
+                    </a>
+
+                    <a
+                        href="/products/golden-moments.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Golden Moments
+                    </a>
+
+                    <a
+                        href="/products/premium-pralines.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Premium Pralines
+                    </a>
+
+                    <a
+                        href="/products/gifting-collection.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Gifting Collection
+                    </a>
+
+                    <a
+                        href="/products/luxor.html"
+                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300"
+                    >
+                        Luxor
+                    </a>
+
+                </div>
 
             </div>
+
 
 
             <!-- ========================================= -->
             <!-- CONTACT -->
             <!-- ========================================= -->
 
-            <div class="lg:col-span-4">
+            <div class="lg:col-span-3">
 
                 <h3
-                    class="font-montserrat text-sm font-bold uppercase tracking-wider text-[#C9A227] mb-5"
+                    class="font-montserrat text-xs font-semibold uppercase tracking-[0.18em] text-[#C9A227] mb-6"
                 >
                     Get In Touch
                 </h3>
@@ -280,129 +334,35 @@
                 <div class="space-y-5">
 
 
-                    <!-- Address -->
-
-                    <div class="flex items-start gap-4">
-
-                        <div
-                            class="shrink-0 w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-zimpy-gold"
-                        >
-
-                            <svg
-                                class="w-5 h-5"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1.8"
-                                    d="M12 21s7-5.2 7-12A7 7 0 1 0 5 9c0 6.8 7 12 7 12z"
-                                />
-
-                                <circle
-                                    cx="12"
-                                    cy="9"
-                                    r="2.2"
-                                />
-                            </svg>
-
-                        </div>
-
-
-                        <div>
-
-                            <p
-                                class="font-montserrat text-xs uppercase tracking-wider text-white/40 mb-1"
-                            >
-                                Address
-                            </p>
-
-                            <p
-                                class="font-montserrat text-sm text-white/70 leading-6"
-                            >
-                                Your Company Address,<br>
-                                City, Maharashtra, India
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- Phone -->
-
-                    <div class="flex items-start gap-4">
-
-                        <div
-                            class="shrink-0 w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-zimpy-gold"
-                        >
-
-                            <svg
-                                class="w-5 h-5"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1.8"
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.78.62 2.63a2 2 0 0 1-.45 2.11L8 9.73a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.85.29 1.73.5 2.63.62A2 2 0 0 1 22 16.92z"
-                                />
-                            </svg>
-
-                        </div>
-
-
-                        <div>
-
-                            <p
-                                class="font-montserrat text-xs uppercase tracking-wider text-white/40 mb-1"
-                            >
-                                Phone
-                            </p>
-
-                            <a
-                                href="tel:+919999999999"
-                                class="font-montserrat text-sm text-white/70 hover:text-zimpy-gold transition-colors"
-                            >
-                                +91 99999 99999
-                            </a>
-
-                        </div>
-
-                    </div>
-
-
                     <!-- Email -->
 
-                    <div class="flex items-start gap-4">
+                    <div class="flex items-start gap-3">
 
                         <div
-                            class="shrink-0 w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-zimpy-gold"
+                            class="w-8 h-8 shrink-0 rounded-full border border-[#C9A227]/30 flex items-center justify-center text-[#C9A227]"
                         >
 
                             <svg
-                                class="w-5 h-5"
+                                class="w-4 h-4"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
                             >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1.8"
-                                    d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"
+
+                                <rect
+                                    x="3"
+                                    y="5"
+                                    width="18"
+                                    height="14"
+                                    rx="2"
+                                    stroke-width="1.5"
                                 />
 
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1.8"
-                                    d="m4 7 8 6 8-6"
+                                    d="M3 7l9 6 9-6"
+                                    stroke-width="1.5"
                                 />
+
                             </svg>
 
                         </div>
@@ -411,17 +371,120 @@
                         <div>
 
                             <p
-                                class="font-montserrat text-xs uppercase tracking-wider text-white/40 mb-1"
+                                class="font-montserrat text-[10px] uppercase tracking-wider text-white/35"
                             >
                                 Email
                             </p>
 
                             <a
                                 href="mailto:info@zimpy.com"
-                                class="font-montserrat text-sm text-white/70 hover:text-zimpy-gold transition-colors"
+                                class="font-montserrat text-sm text-white/65 hover:text-[#C9A227] transition-colors duration-300"
                             >
                                 info@zimpy.com
                             </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Phone -->
+
+                    <div class="flex items-start gap-3">
+
+                        <div
+                            class="w-8 h-8 shrink-0 rounded-full border border-[#C9A227]/30 flex items-center justify-center text-[#C9A227]"
+                        >
+
+                            <svg
+                                class="w-4 h-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.8 19.8 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.12.9.33 1.78.62 2.63a2 2 0 01-.45 2.11L8 9.73a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.85.29 1.73.5 2.63.62A2 2 0 0122 16.92z"
+                                />
+
+                            </svg>
+
+                        </div>
+
+
+                        <div>
+
+                            <p
+                                class="font-montserrat text-[10px] uppercase tracking-wider text-white/35"
+                            >
+                                Phone
+                            </p>
+
+                            <a
+                                href="tel:+910000000000"
+                                class="font-montserrat text-sm text-white/65 hover:text-[#C9A227] transition-colors duration-300"
+                            >
+                                +91 00000 00000
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Address -->
+
+                    <div class="flex items-start gap-3">
+
+                        <div
+                            class="w-8 h-8 shrink-0 rounded-full border border-[#C9A227]/30 flex items-center justify-center text-[#C9A227]"
+                        >
+
+                            <svg
+                                class="w-4 h-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M12 21s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"
+                                />
+
+                                <circle
+                                    cx="12"
+                                    cy="9"
+                                    r="2.2"
+                                    stroke-width="1.5"
+                                />
+
+                            </svg>
+
+                        </div>
+
+
+                        <div>
+
+                            <p
+                                class="font-montserrat text-[10px] uppercase tracking-wider text-white/35"
+                            >
+                                Address
+                            </p>
+
+                            <p
+                                class="font-montserrat text-sm leading-5 text-white/65"
+                            >
+                                Your Company Address,<br>
+                                Maharashtra, India
+                            </p>
 
                         </div>
 
@@ -433,51 +496,48 @@
 
         </div>
 
-    </div>
 
 
-    <!-- ========================================= -->
-    <!-- BOTTOM FOOTER -->
-    <!-- ========================================= -->
+        <!-- ========================================= -->
+        <!-- GOLD DIVIDER -->
+        <!-- ========================================= -->
 
-    <div class="border-t border-white/10">
+        <div class="h-px bg-[#C9A227]/20"></div>
 
-        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+
+
+        <!-- ========================================= -->
+        <!-- BOTTOM FOOTER -->
+        <!-- ========================================= -->
+
+        <div
+            class="py-5 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-3"
+        >
+
+            <p
+                class="font-montserrat text-[11px] sm:text-xs text-white/40 text-center sm:text-left"
+            >
+                © 2026 Zimpy. All rights reserved.
+            </p>
+
 
             <div
-                class="py-6 flex flex-col md:flex-row items-center justify-between gap-4"
+                class="flex items-center gap-5"
             >
 
-                <!-- Copyright -->
-
-                <p
-                    class="font-montserrat text-xs sm:text-sm text-white/40 text-center md:text-left"
+                <a
+                    href="/privacy-policy.html"
+                    class="font-montserrat text-[11px] sm:text-xs text-white/40 hover:text-white transition-colors duration-300"
                 >
-                    © 2026 Zimpy. All Rights Reserved.
-                </p>
+                    Privacy Policy
+                </a>
 
-
-                <!-- Legal Links -->
-
-                <div
-                    class="flex items-center gap-5 sm:gap-7"
+                <a
+                    href="/terms.html"
+                    class="font-montserrat text-[11px] sm:text-xs text-white/40 hover:text-white transition-colors duration-300"
                 >
-
-                    <a
-                        href="#"
-                        class="font-montserrat text-xs sm:text-sm text-white/40 hover:text-zimpy-gold transition-colors"
-                    >
-                        Privacy Policy
-                    </a>
-
-                    <a
-                        href="#"
-                        class="font-montserrat text-xs sm:text-sm text-white/40 hover:text-zimpy-gold transition-colors"
-                    >
-                        Terms & Conditions
-                    </a>
-
-                </div>
+                    Terms & Conditions
+                </a>
 
             </div>
 
