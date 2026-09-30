@@ -25,7 +25,7 @@
                 <a href="/" class="inline-block">
 
                     <img
-                        src="/images/zimpy-logo.png"
+                        src="./assets/Zimpy logo_Final.png"
                         alt="Zimpy"
                         class="w-28 sm:w-32 h-auto"
                     >
