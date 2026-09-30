@@ -272,18 +272,6 @@
                     </a>
 
 
-                    <!-- Private Label -->
-
-                    <a
-                        href="#private-label"
-                        class="relative text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2 group"
-                    >
-                        Private Label
-
-                        <span
-                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-zimpy-red transition-all duration-300 group-hover:w-full"
-                        ></span>
-                    </a>
 
 
                     <!-- Contact -->
