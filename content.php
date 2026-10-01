@@ -182,7 +182,7 @@
                 <p
                     class="mt-2 font-montserrat text-xs leading-5 text-gray-500"
                 >
-                    Your company address goes here.
+                    A-10 , Kripa Industrial Complex , Sonale Village , Thane , Bhiwandi - 421 302 , Maharashtra , India
                 </p>
 
             </div>
@@ -235,7 +235,13 @@
                 <p
                     class="mt-2 font-montserrat text-xs text-gray-500"
                 >
-                    +91 XXXXX XXXXX
+                    +91 7400440978
+                </p>
+
+                <p
+                    class="mt-2 font-montserrat text-xs text-gray-500"
+                >
+                    +91 9892549023
                 </p>
 
             </div>
@@ -295,7 +301,7 @@
                 <p
                     class="mt-2 font-montserrat text-xs text-gray-500 break-all"
                 >
-                    info@yourcompany.com
+                    info@zimpychocolates.com
                 </p>
 
             </div>

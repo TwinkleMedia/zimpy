@@ -339,8 +339,9 @@
                             <a
                                 href="mailto:info@zimpy.com"
                                 class="font-montserrat text-sm text-white/65 hover:text-[#C9A227] transition-colors duration-300">
-                                info@zimpy.com
+                                info@zimpychocolates.com
                             </a>
+                            
 
                         </div>
 
@@ -382,7 +383,12 @@
                             <a
                                 href="tel:+910000000000"
                                 class="font-montserrat text-sm text-white/65 hover:text-[#C9A227] transition-colors duration-300">
-                                +91 00000 00000
+                                +91 7400440978
+                            </a>
+                            <a
+                                href="tel:+910000000000"
+                                class="font-montserrat text-sm text-white/65 hover:text-[#C9A227] transition-colors duration-300">
+                                +91 9892549023
                             </a>
 
                         </div>
@@ -430,7 +436,7 @@
 
                             <p
                                 class="font-montserrat text-sm leading-5 text-white/65">
-                                Your Company Address,<br>
+                                A-10 , Kripa Industrial Complex , Sonale Village , Thane , Bhiwandi -421 302<br>
                                 Maharashtra, India
                             </p>
 
