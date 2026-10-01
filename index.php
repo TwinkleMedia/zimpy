@@ -312,7 +312,7 @@
                         class="flex items-center justify-between mb-6 sm:mb-9">
 
                         <span
-                            class="font-montserrat text-[10px] sm:text-xs font-semibold tracking-[0.18em] text-[#C9A227]">
+                            class="font-montserrat text-[10px] sm:text-xs font-semibold tracking-[0.18em] 0">
                             01
                         </span>
 

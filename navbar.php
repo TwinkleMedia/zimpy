@@ -2,63 +2,111 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Zimpy | Confectionery Manufacturer</title>
 
+
     <!-- Tailwind CSS -->
+
     <script src="https://cdn.tailwindcss.com"></script>
 
+
     <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
         rel="stylesheet"
     >
 
+
+    <!-- Tailwind Configuration -->
+
     <script>
+
         tailwind.config = {
+
             theme: {
+
                 extend: {
+
                     colors: {
+
                         zimpy: {
+
                             red: '#ED1C24',
+
                             darkred: '#C9141B',
+
                             cocoa: '#351B16',
+
                             chocolate: '#5A3026',
+
                             gold: '#E5B85C',
+
                             cream: '#FFF8EC',
+
                             text: '#292321'
+
                         }
+
                     },
+
+
                     fontFamily: {
+
                         montserrat: ['Montserrat', 'sans-serif'],
+
                         playfair: ['Playfair Display', 'serif']
+
                     }
+
                 }
+
             }
+
         }
+
     </script>
+
 </head>
+
 
 <body class="bg-white text-zimpy-text">
 
-    <!-- ============================= -->
-    <!-- HEADER -->
-    <!-- ============================= -->
 
-    <header class="sticky top-0 z-50 bg-white border-b border-zimpy-cream shadow-sm">
+    <!-- ===================================================== -->
+    <!-- HEADER -->
+    <!-- ===================================================== -->
+
+    <header
+        class="sticky top-0 z-50 bg-white border-b border-zimpy-cream shadow-sm"
+    >
 
         <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
-            <div class="h-20 lg:h-24 flex items-center justify-between">
+            <div
+                class="h-20 lg:h-24 flex items-center justify-between"
+            >
 
-                <!-- ============================= -->
+
+                <!-- ================================================= -->
                 <!-- LOGO -->
-                <!-- ============================= -->
+                <!-- ================================================= -->
 
                 <a
                     href="./index.php"
@@ -74,47 +122,68 @@
                 </a>
 
 
-                <!-- ============================= -->
+
+                <!-- ================================================= -->
                 <!-- DESKTOP NAVIGATION -->
-                <!-- ============================= -->
+                <!-- ================================================= -->
 
-                <nav class="hidden lg:flex items-center gap-8 xl:gap-10 font-montserrat">
+                <nav
+                    class="hidden lg:flex items-center gap-8 xl:gap-10 font-montserrat"
+                >
 
-                    <!-- Home -->
+
+                    <!-- ============================= -->
+                    <!-- HOME -->
+                    <!-- ============================= -->
 
                     <a
-                        href="#"
+                        href="./index.php"
                         class="relative text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2 group"
                     >
+
                         Home
 
                         <span
                             class="absolute left-0 bottom-0 w-0 h-[2px] bg-zimpy-red transition-all duration-300 group-hover:w-full"
                         ></span>
+
                     </a>
 
 
-                    <!-- About -->
+
+                    <!-- ============================= -->
+                    <!-- ABOUT -->
+                    <!-- ============================= -->
 
                     <a
-                        href="#about"
+                        href="./about.php"
                         class="relative text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2 group"
                     >
+
                         About Us
 
                         <span
                             class="absolute left-0 bottom-0 w-0 h-[2px] bg-zimpy-red transition-all duration-300 group-hover:w-full"
                         ></span>
+
                     </a>
 
 
-                    <!-- Products Dropdown -->
+
+                    <!-- ================================================= -->
+                    <!-- PRODUCTS DROPDOWN -->
+                    <!-- ================================================= -->
 
                     <div class="relative group">
 
+
+                        <!-- Products Button -->
+
                         <button
+                            type="button"
                             class="flex items-center gap-2 text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2"
                         >
+
                             Products
 
                             <svg
@@ -123,133 +192,284 @@
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
                             >
+
                                 <path
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M19 9l-7 7-7-7"
                                 />
+
                             </svg>
+
                         </button>
 
 
-                        <!-- Dropdown -->
+
+                        <!-- ================================================= -->
+                        <!-- DROPDOWN -->
+                        <!-- ================================================= -->
 
                         <div
-                            class="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300"
+                            class="absolute left-1/2 -translate-x-1/2 top-full pt-3 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200"
                         >
 
+
                             <div
-                                class="w-64 bg-white rounded-2xl border border-zimpy-cream shadow-xl overflow-hidden"
+                                class="w-[560px] bg-white border border-zimpy-cream shadow-[0_15px_40px_rgba(53,27,22,0.14)] overflow-hidden"
                             >
 
-                                <div class="px-5 py-4 border-b border-zimpy-cream">
 
-                                    <p class="font-playfair text-lg font-semibold text-zimpy-cocoa">
+                                <!-- Gold Top Line -->
+
+                                <div class="h-[2px] bg-zimpy-gold"></div>
+
+
+
+                                <!-- Dropdown Header -->
+
+                                <div
+                                    class="px-6 py-4 border-b border-zimpy-cream"
+                                >
+
+                                    <p
+                                        class="font-playfair text-lg font-semibold text-zimpy-cocoa"
+                                    >
                                         Our Products
                                     </p>
 
-                                    <p class="text-xs text-gray-500 mt-1 font-montserrat">
-                                        Explore our confectionery range
+                                    <p
+                                        class="text-[11px] text-gray-500 mt-1 font-montserrat"
+                                    >
+                                        Explore the Zimpy confectionery collection
                                     </p>
 
                                 </div>
 
 
-                                <a
-                                    href="#"
-                                    class="flex items-center gap-4 px-5 py-4 hover:bg-zimpy-cream transition-colors duration-200 group/item"
+
+                                <!-- ================================================= -->
+                                <!-- PRODUCT LIST -->
+                                <!-- ================================================= -->
+
+                                <div
+                                    class="grid grid-cols-2 gap-x-6 px-5 py-5"
                                 >
 
-                                    <span
-                                        class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-zimpy-red"
-                                    >
-                                        🍫
-                                    </span>
+
+                                    <!-- ============================= -->
+                                    <!-- CHOCOLATE COLLECTION -->
+                                    <!-- ============================= -->
 
                                     <div>
-                                        <p class="font-montserrat text-sm font-semibold text-zimpy-cocoa">
-                                            Chocolates
+
+                                        <p
+                                            class="px-2 mb-2 font-montserrat text-[9px] font-semibold uppercase tracking-[0.18em] text-zimpy-gold"
+                                        >
+                                            Chocolate Collection
                                         </p>
 
-                                        <p class="text-xs text-gray-500 mt-1">
-                                            Premium chocolates
-                                        </p>
+
+                                        <!-- Lovita -->
+
+                                        <a
+                                            href="./lovita.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Lovita
+                                        </a>
+
+
+                                        <!-- Dairy Luxe -->
+
+                                        <a
+                                            href="./dairy-luxe.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Dairy Luxe
+                                        </a>
+
+
+                                        <!-- Gloria -->
+
+                                        <a
+                                            href="./gloria.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Gloria
+                                        </a>
+
+
+                                        <!-- Choco Surfer -->
+
+                                        <a
+                                            href="./choco-surfer.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Choco Surfer
+                                        </a>
+
+
+                                        <!-- Gracia -->
+
+                                        <a
+                                            href="./gracia.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Gracia
+                                        </a>
+
+
+                                        <!-- Choco Lush -->
+
+                                        <a
+                                            href="./choco-lush.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Choco Lush
+                                        </a>
+
                                     </div>
 
-                                </a>
 
 
-                                <a
-                                    href="#"
-                                    class="flex items-center gap-4 px-5 py-4 hover:bg-zimpy-cream transition-colors duration-200"
+                                    <!-- ============================= -->
+                                    <!-- PREMIUM & GIFTING -->
+                                    <!-- ============================= -->
+
+                                    <div>
+
+                                        <p
+                                            class="px-2 mb-2 font-montserrat text-[9px] font-semibold uppercase tracking-[0.18em] text-zimpy-gold"
+                                        >
+                                            Premium & Gifting
+                                        </p>
+
+
+                                        <!-- Le Reve -->
+
+                                        <a
+                                            href="./le-reve.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Le Reve
+                                        </a>
+
+
+                                        <!-- Orlen -->
+
+                                        <a
+                                            href="./orlen.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Orlen
+                                        </a>
+
+
+                                        <!-- Greetings -->
+
+                                        <a
+                                            href="./greetings.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Greetings
+                                        </a>
+
+
+                                        <!-- Goa Special -->
+
+                                        <a
+                                            href="./goa-special.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Goa Special
+                                        </a>
+
+
+                                        <!-- Golden Moments -->
+
+                                        <a
+                                            href="./golden-moments.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Golden Moments
+                                        </a>
+
+
+                                        <!-- Premium Pralines -->
+
+                                        <a
+                                            href="./premium-pralines.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Premium Pralines
+                                        </a>
+
+
+                                        <!-- Gifting Collection -->
+
+                                        <a
+                                            href="./gifting-collection.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Gifting Collection
+                                        </a>
+
+
+                                        <!-- Luxor -->
+
+                                        <a
+                                            href="./luxor.php"
+                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
+                                        >
+                                            Luxor
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <!-- ================================================= -->
+                                <!-- VIEW ALL PRODUCTS -->
+                                <!-- ================================================= -->
+
+                                <div
+                                    class="border-t border-zimpy-cream"
                                 >
 
-                                    <span
-                                        class="w-10 h-10 rounded-full bg-yellow-50 flex items-center justify-center"
+                                    <a
+                                        href="./products.php"
+                                        class="group flex items-center justify-between px-6 py-3.5 bg-zimpy-cream hover:bg-[#fff0d8] transition-colors"
                                     >
-                                        🍬
-                                    </span>
 
-                                    <div>
-                                        <p class="font-montserrat text-sm font-semibold text-zimpy-cocoa">
-                                            Toffees
-                                        </p>
-
-                                        <p class="text-xs text-gray-500 mt-1">
-                                            Delicious toffees
-                                        </p>
-                                    </div>
-
-                                </a>
+                                        <span
+                                            class="font-montserrat text-xs font-semibold text-zimpy-cocoa"
+                                        >
+                                            View All Products
+                                        </span>
 
 
-                                <a
-                                    href="#"
-                                    class="flex items-center gap-4 px-5 py-4 hover:bg-zimpy-cream transition-colors duration-200"
-                                >
+                                        <svg
+                                            class="w-4 h-4 text-zimpy-gold group-hover:translate-x-1 transition-transform"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
 
-                                    <span
-                                        class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center"
-                                    >
-                                        🍭
-                                    </span>
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="1.8"
+                                                d="M5 12h14M13 6l6 6-6 6"
+                                            />
 
-                                    <div>
-                                        <p class="font-montserrat text-sm font-semibold text-zimpy-cocoa">
-                                            Candies
-                                        </p>
+                                        </svg>
 
-                                        <p class="text-xs text-gray-500 mt-1">
-                                            Fun & flavorful
-                                        </p>
-                                    </div>
+                                    </a>
 
-                                </a>
-
-
-                                <a
-                                    href="#"
-                                    class="flex items-center gap-4 px-5 py-4 hover:bg-zimpy-cream transition-colors duration-200"
-                                >
-
-                                    <span
-                                        class="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center"
-                                    >
-                                        ✨
-                                    </span>
-
-                                    <div>
-                                        <p class="font-montserrat text-sm font-semibold text-zimpy-cocoa">
-                                            Custom Products
-                                        </p>
-
-                                        <p class="text-xs text-gray-500 mt-1">
-                                            Private label solutions
-                                        </p>
-                                    </div>
-
-                                </a>
+                                </div>
 
                             </div>
 
@@ -258,41 +478,53 @@
                     </div>
 
 
-                    <!-- Manufacturing -->
+
+                    <!-- ============================= -->
+                    <!-- MANUFACTURING -->
+                    <!-- ============================= -->
 
                     <a
                         href="#manufacturing"
                         class="relative text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2 group"
                     >
+
                         Manufacturing
 
                         <span
                             class="absolute left-0 bottom-0 w-0 h-[2px] bg-zimpy-red transition-all duration-300 group-hover:w-full"
                         ></span>
+
                     </a>
 
 
 
+                   
 
-                    <!-- Contact -->
+
+                    <!-- ============================= -->
+                    <!-- CONTACT -->
+                    <!-- ============================= -->
 
                     <a
-                        href="#contact"
+                        href="./content.php"
                         class="relative text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2 group"
                     >
+
                         Contact Us
 
                         <span
                             class="absolute left-0 bottom-0 w-0 h-[2px] bg-zimpy-red transition-all duration-300 group-hover:w-full"
                         ></span>
+
                     </a>
 
                 </nav>
 
 
-                <!-- ============================= -->
+
+                <!-- ================================================= -->
                 <!-- DESKTOP CTA -->
-                <!-- ============================= -->
+                <!-- ================================================= -->
 
                 <div class="hidden lg:block">
 
@@ -301,7 +533,7 @@
                         class="inline-flex items-center gap-2 bg-zimpy-red hover:bg-zimpy-darkred text-white font-montserrat font-semibold text-sm px-6 py-3.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
                     >
 
-                        Get a Quote
+                       Download brochure
 
                         <svg
                             class="w-4 h-4"
@@ -309,12 +541,14 @@
                             stroke="currentColor"
                             viewBox="0 0 24 24"
                         >
+
                             <path
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                                 stroke-width="2"
                                 d="M17 8l4 4m0 0l-4 4m4-4H3"
                             />
+
                         </svg>
 
                     </a>
@@ -322,9 +556,10 @@
                 </div>
 
 
-                <!-- ============================= -->
+
+                <!-- ================================================= -->
                 <!-- MOBILE MENU BUTTON -->
-                <!-- ============================= -->
+                <!-- ================================================= -->
 
                 <button
                     id="mobileMenuButton"
@@ -333,6 +568,8 @@
                     class="lg:hidden w-11 h-11 rounded-full bg-zimpy-cream text-zimpy-cocoa flex items-center justify-center hover:bg-zimpy-red hover:text-white transition-all duration-300"
                 >
 
+                    <!-- Hamburger -->
+
                     <svg
                         id="menuIcon"
                         class="w-6 h-6"
@@ -340,13 +577,18 @@
                         stroke="currentColor"
                         viewBox="0 0 24 24"
                     >
+
                         <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16"
                         />
+
                     </svg>
+
+
+                    <!-- Close -->
 
                     <svg
                         id="closeIcon"
@@ -355,12 +597,14 @@
                         stroke="currentColor"
                         viewBox="0 0 24 24"
                     >
+
                         <path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M6 18L18 6M6 6l12 12"
                         />
+
                     </svg>
 
                 </button>
@@ -368,41 +612,49 @@
             </div>
 
 
-            <!-- ============================= -->
+
+            <!-- ================================================= -->
             <!-- MOBILE MENU -->
-            <!-- ============================= -->
+            <!-- ================================================= -->
 
             <div
                 id="mobileMenu"
                 class="hidden lg:hidden border-t border-zimpy-cream"
             >
 
-                <div class="py-5 space-y-1 font-montserrat">
+                <div
+                    class="py-5 space-y-1 font-montserrat"
+                >
 
 
-                    <!-- Home -->
+                    <!-- HOME -->
 
                     <a
-                        href="#"
+                        href="./index.php"
                         class="block px-4 py-3 rounded-xl text-sm font-semibold text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                     >
                         Home
                     </a>
 
 
-                    <!-- About -->
+
+                    <!-- ABOUT -->
 
                     <a
-                        href="#about"
+                        href="./about.php"
                         class="block px-4 py-3 rounded-xl text-sm font-semibold text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                     >
                         About Us
                     </a>
 
 
-                    <!-- Mobile Products -->
+
+                    <!-- ================================================= -->
+                    <!-- MOBILE PRODUCTS -->
+                    <!-- ================================================= -->
 
                     <div>
+
 
                         <button
                             id="mobileProductsButton"
@@ -419,56 +671,191 @@
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
                             >
+
                                 <path
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M19 9l-7 7-7-7"
                                 />
+
                             </svg>
 
                         </button>
 
+
+
+                        <!-- Product List -->
 
                         <div
                             id="mobileProducts"
                             class="hidden mt-1 ml-4 pl-4 border-l-2 border-zimpy-gold space-y-1"
                         >
 
-                            <a
-                                href="#"
-                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
-                            >
-                                Chocolates
-                            </a>
+
+                            <!-- Lovita -->
 
                             <a
-                                href="#"
+                                href="./lovita.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
-                                Toffees
+                                Lovita
                             </a>
 
-                            <a
-                                href="#"
-                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
-                            >
-                                Candies
-                            </a>
+
+                            <!-- Dairy Luxe -->
 
                             <a
-                                href="#"
+                                href="./dairy-luxe.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
-                                Custom Products
+                                Dairy Luxe
                             </a>
+
+
+                            <!-- Gloria -->
+
+                            <a
+                                href="./gloria.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Gloria
+                            </a>
+
+
+                            <!-- Choco Surfer -->
+
+                            <a
+                                href="./choco-surfer.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Choco Surfer
+                            </a>
+
+
+                            <!-- Gracia -->
+
+                            <a
+                                href="./gracia.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Gracia
+                            </a>
+
+
+                            <!-- Choco Lush -->
+
+                            <a
+                                href="./choco-lush.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Choco Lush
+                            </a>
+
+
+                            <!-- Le Reve -->
+
+                            <a
+                                href="./le-reve.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Le Reve
+                            </a>
+
+
+                            <!-- Orlen -->
+
+                            <a
+                                href="./orlen.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Orlen
+                            </a>
+
+
+                            <!-- Greetings -->
+
+                            <a
+                                href="./greetings.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Greetings
+                            </a>
+
+
+                            <!-- Goa Special -->
+
+                            <a
+                                href="./goa-special.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Goa Special
+                            </a>
+
+
+                            <!-- Golden Moments -->
+
+                            <a
+                                href="./golden-moments.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Golden Moments
+                            </a>
+
+
+                            <!-- Premium Pralines -->
+
+                            <a
+                                href="./premium-pralines.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Premium Pralines
+                            </a>
+
+
+                            <!-- Gifting Collection -->
+
+                            <a
+                                href="./gifting-collection.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Gifting Collection
+                            </a>
+
+
+                            <!-- Luxor -->
+
+                            <a
+                                href="./luxor.php"
+                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
+                            >
+                                Luxor
+                            </a>
+
+
+
+                            <!-- View All -->
+
+                            <div class="pt-2">
+
+                                <a
+                                    href="./products.php"
+                                    class="block px-4 py-2.5 text-xs font-semibold text-zimpy-red"
+                                >
+                                    View All Products →
+                                </a>
+
+                            </div>
 
                         </div>
 
                     </div>
 
 
-                    <!-- Manufacturing -->
+
+                    <!-- ================================================= -->
+                    <!-- MANUFACTURING -->
+                    <!-- ================================================= -->
 
                     <a
                         href="#manufacturing"
@@ -478,27 +865,27 @@
                     </a>
 
 
-                    <!-- Private Label -->
+
+                   
+
+
+
+                    <!-- ================================================= -->
+                    <!-- CONTACT -->
+                    <!-- ================================================= -->
 
                     <a
-                        href="#private-label"
-                        class="block px-4 py-3 rounded-xl text-sm font-semibold text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
-                    >
-                        Private Label
-                    </a>
-
-
-                    <!-- Contact -->
-
-                    <a
-                        href="#contact"
+                        href="./content.php"
                         class="block px-4 py-3 rounded-xl text-sm font-semibold text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                     >
                         Contact Us
                     </a>
 
 
-                    <!-- Mobile CTA -->
+
+                    <!-- ================================================= -->
+                    <!-- MOBILE CTA -->
+                    <!-- ================================================= -->
 
                     <div class="pt-4">
 
@@ -507,7 +894,7 @@
                             class="flex items-center justify-center gap-2 w-full bg-zimpy-red hover:bg-zimpy-darkred text-white font-semibold text-sm px-6 py-3.5 rounded-full transition-all duration-300"
                         >
 
-                            Get a Quote
+                            Download brochure
 
                             <svg
                                 class="w-4 h-4"
@@ -515,12 +902,14 @@
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
                             >
+
                                 <path
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                                 />
+
                             </svg>
 
                         </a>
@@ -536,23 +925,30 @@
     </header>
 
 
-   
 
-
-    <!-- ============================= -->
+    <!-- ===================================================== -->
     <!-- JAVASCRIPT -->
-    <!-- ============================= -->
+    <!-- ===================================================== -->
 
     <script>
+
+
+        /* ================================================= */
+        /* MOBILE MENU */
+        /* ================================================= */
+
 
         const mobileMenuButton =
             document.getElementById('mobileMenuButton');
 
+
         const mobileMenu =
             document.getElementById('mobileMenu');
 
+
         const menuIcon =
             document.getElementById('menuIcon');
+
 
         const closeIcon =
             document.getElementById('closeIcon');
@@ -569,13 +965,19 @@
         });
 
 
-        /* Mobile Products Dropdown */
+
+        /* ================================================= */
+        /* MOBILE PRODUCTS DROPDOWN */
+        /* ================================================= */
+
 
         const mobileProductsButton =
             document.getElementById('mobileProductsButton');
 
+
         const mobileProducts =
             document.getElementById('mobileProducts');
+
 
         const productsArrow =
             document.getElementById('productsArrow');
@@ -590,10 +992,15 @@
         });
 
 
-        /* Close mobile menu after clicking a link */
+
+        /* ================================================= */
+        /* CLOSE MOBILE MENU AFTER CLICKING LINK */
+        /* ================================================= */
+
 
         const mobileLinks =
             mobileMenu.querySelectorAll('a');
+
 
         mobileLinks.forEach(link => {
 
