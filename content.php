@@ -875,10 +875,12 @@
 <!-- ========================================================= -->
 <!-- PRODUCT INTEREST STRIP -->
 <!-- ========================================================= -->
-
+  <div class="h-[1px] bg-[#C9A227]"></div>
 <section
     class="bg-zimpy-cocoa"
 >
+
+  
 
     <div
         class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12 sm:py-14"
@@ -933,7 +935,9 @@
         </div>
 
     </div>
+  <!-- Bottom Gold Line -->
 
+    <div class="h-[1px] bg-[#C9A227]"></div>
 </section>
 <?php 
 include "./footer.php"

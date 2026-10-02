@@ -440,7 +440,7 @@
                                 >
 
                                     <a
-                                        href="./products.php"
+                                        href="./product.php"
                                         class="group flex items-center justify-between px-6 py-3.5 bg-zimpy-cream hover:bg-[#fff0d8] transition-colors"
                                     >
 
@@ -839,7 +839,7 @@
                             <div class="pt-2">
 
                                 <a
-                                    href="./products.php"
+                                    href="./product.php"
                                     class="block px-4 py-2.5 text-xs font-semibold text-zimpy-red"
                                 >
                                     View All Products →
