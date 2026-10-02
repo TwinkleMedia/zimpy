@@ -1200,10 +1200,6 @@
 
 </section
 
-<!-- ========================================= -->
-<!-- CLIENT TESTIMONIALS -->
-<!-- ========================================= -->
-
 <section
     class="relative overflow-hidden bg-[#F8F3EC] py-14 sm:py-20 lg:py-28"
 >
