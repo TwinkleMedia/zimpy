@@ -15,7 +15,7 @@
     <?php
     include "./navbar.php"
     ?>
-
+<?php  include "./home-animation.php" ?>
     <!-- ============ HERO IMAGE CAROUSEL ============ -->
     <section class="relative w-full h-[240px] sm:h-[380px] md:h-[500px] lg:h-[620px] overflow-hidden">
 
@@ -1199,6 +1199,10 @@
     </div>
 
 </section
+
+<!-- ========================================= -->
+<!-- CLIENT TESTIMONIALS -->
+<!-- ========================================= -->
 
 <section
     class="relative overflow-hidden bg-[#F8F3EC] py-14 sm:py-20 lg:py-28"

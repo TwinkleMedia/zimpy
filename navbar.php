@@ -476,31 +476,6 @@
                         </div>
 
                     </div>
-
-
-
-                    <!-- ============================= -->
-                    <!-- MANUFACTURING -->
-                    <!-- ============================= -->
-
-                    <a
-                        href="#manufacturing"
-                        class="relative text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2 group"
-                    >
-
-                        Manufacturing
-
-                        <span
-                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-zimpy-red transition-all duration-300 group-hover:w-full"
-                        ></span>
-
-                    </a>
-
-
-
-                   
-
-
                     <!-- ============================= -->
                     <!-- CONTACT -->
                     <!-- ============================= -->
@@ -850,24 +825,6 @@
                         </div>
 
                     </div>
-
-
-
-                    <!-- ================================================= -->
-                    <!-- MANUFACTURING -->
-                    <!-- ================================================= -->
-
-                    <a
-                        href="#manufacturing"
-                        class="block px-4 py-3 rounded-xl text-sm font-semibold text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
-                    >
-                        Manufacturing
-                    </a>
-
-
-
-                   
-
 
 
                     <!-- ================================================= -->

@@ -59,16 +59,6 @@
         .js-anim .reveal.pop        { transform: scale(.92) translateY(20px); }
         .js-anim .reveal.in         { opacity: 1; transform: none; }
 
-        /* Image wipe + zoom-out */
-        .js-anim .reveal.clip {
-            opacity: 1; transform: none;
-            clip-path: inset(0 100% 0 0);
-            transition: clip-path 1.2s cubic-bezier(.77, 0, .175, 1) var(--d, 0ms);
-        }
-        .js-anim .reveal.clip.in { clip-path: inset(0 0 0 0); }
-        .js-anim .reveal.clip img { transform: scale(1.2); transition: transform 1.8s cubic-bezier(.22, 1, .36, 1) var(--d, 0ms); }
-        .js-anim .reveal.clip.in img { transform: scale(1); }
-
         /* Hover polish */
         .why-item { transition: background-color .4s ease; }
         .why-item:hover { background-color: rgba(201, 162, 39, .06); }
@@ -304,7 +294,7 @@ include "./navbar.php"
             <div class="relative order-2 lg:order-1">
 
                 <div class="story-img relative overflow-hidden rounded-sm">
-                    <img src="./assets/zimpy-story.jpg" alt="Zimpy Chocolate and Confectionery Products"
+                    <img src="./assets/aboutus.png" alt="Zimpy Chocolate and Confectionery Products"
                         class="w-full h-[320px] sm:h-[400px] lg:h-[500px] object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#351B16]/20 via-transparent to-transparent"></div>
                 </div>
@@ -426,7 +416,6 @@ include "./footer.php"
         reveal($$('#whyGrid > div'), 'pop', 130, 100);
 
         // STORY
-        reveal([$('.story-img')], 'clip', 0);
         reveal([$('.story-box')], 'from-right', 0, 700);
         reveal([$('.story-badge')], '', 0, 900);
         reveal($$('#storyText > div:not(.story-paras):not(.story-points), #storyText > h2'), 'from-right', 110);
@@ -443,7 +432,7 @@ include "./footer.php"
                 io.unobserve(el);
                 const delay = parseFloat(el.style.getPropertyValue('--d')) || 0;
                 setTimeout(() => {
-                    el.classList.remove('reveal', 'from-left', 'from-right', 'pop', 'clip', 'in');
+                    el.classList.remove('reveal', 'from-left', 'from-right', 'pop', 'in');
                     el.style.removeProperty('--d');
                 }, delay + 1900);
             });
