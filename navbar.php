@@ -283,7 +283,7 @@
                                         <!-- Dairy Luxe -->
 
                                         <a
-                                            href="./dairy-luxe.php"
+                                            href="product-details-dairy-luxe.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Dairy Luxe
@@ -293,7 +293,7 @@
                                         <!-- Gloria -->
 
                                         <a
-                                            href="./gloria.php"
+                                            href="./product-details-gloria.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Gloria
@@ -303,7 +303,7 @@
                                         <!-- Choco Surfer -->
 
                                         <a
-                                            href="./choco-surfer.php"
+                                            href="./product-details-choco-surfer.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Choco Surfer
@@ -313,7 +313,7 @@
                                         <!-- Gracia -->
 
                                         <a
-                                            href="./gracia.php"
+                                            href="./product-details-gracia.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Gracia
@@ -323,7 +323,7 @@
                                         <!-- Choco Lush -->
 
                                         <a
-                                            href="./choco-lush.php"
+                                            href="./product-details-choco-lush.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Choco Lush
@@ -349,7 +349,7 @@
                                         <!-- Le Reve -->
 
                                         <a
-                                            href="./le-reve.php"
+                                            href="./product-details-le-reve.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Le Reve
@@ -359,7 +359,7 @@
                                         <!-- Orlen -->
 
                                         <a
-                                            href="./orlen.php"
+                                            href="./product-details-orlen.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Orlen
@@ -369,7 +369,7 @@
                                         <!-- Greetings -->
 
                                         <a
-                                            href="./greetings.php"
+                                            href="./product-details-greetings.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Greetings
@@ -379,7 +379,7 @@
                                         <!-- Goa Special -->
 
                                         <a
-                                            href="./goa-special.php"
+                                            href="./product-details-goa.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Goa Special
@@ -389,7 +389,7 @@
                                         <!-- Golden Moments -->
 
                                         <a
-                                            href="./golden-moments.php"
+                                            href="./productdetailsgolden-moments.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Golden Moments
@@ -399,7 +399,7 @@
                                         <!-- Premium Pralines -->
 
                                         <a
-                                            href="./premium-pralines.php"
+                                            href="./PremiumPralines.php"
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Premium Pralines
@@ -413,16 +413,6 @@
                                             class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
                                         >
                                             Gifting Collection
-                                        </a>
-
-
-                                        <!-- Luxor -->
-
-                                        <a
-                                            href="./luxor.php"
-                                            class="block px-3 py-2.5 font-montserrat text-sm text-zimpy-cocoa hover:bg-zimpy-cream hover:text-zimpy-red transition-colors"
-                                        >
-                                            Luxor
                                         </a>
 
                                     </div>
@@ -504,7 +494,7 @@
                 <div class="hidden lg:block">
 
                     <a
-                        href="#contact"
+                        href="./assets/zimpyProducts.pdf"
                         class="inline-flex items-center gap-2 bg-zimpy-red hover:bg-zimpy-darkred text-white font-montserrat font-semibold text-sm px-6 py-3.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
                     >
 
@@ -681,7 +671,7 @@
                             <!-- Dairy Luxe -->
 
                             <a
-                                href="./dairy-luxe.php"
+                                href="product-details-dairy-luxe.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Dairy Luxe
@@ -691,7 +681,7 @@
                             <!-- Gloria -->
 
                             <a
-                                href="./gloria.php"
+                                href="./product-details-gloria.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Gloria
@@ -701,7 +691,7 @@
                             <!-- Choco Surfer -->
 
                             <a
-                                href="./choco-surfer.php"
+                                href="./product-details-choco-surfer.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Choco Surfer
@@ -711,7 +701,7 @@
                             <!-- Gracia -->
 
                             <a
-                                href="./gracia.php"
+                                href="./product-details-gracia.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Gracia
@@ -721,7 +711,7 @@
                             <!-- Choco Lush -->
 
                             <a
-                                href="./choco-lush.php"
+                                href="./product-details-choco-lush.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Choco Lush
@@ -731,7 +721,7 @@
                             <!-- Le Reve -->
 
                             <a
-                                href="./le-reve.php"
+                                href="./product-details-le-reve.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Le Reve
@@ -741,7 +731,7 @@
                             <!-- Orlen -->
 
                             <a
-                                href="./orlen.php"
+                                href="./product-details-orlen.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Orlen
@@ -751,7 +741,7 @@
                             <!-- Greetings -->
 
                             <a
-                                href="./greetings.php"
+                                href="./product-details-greetings.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Greetings
@@ -761,7 +751,7 @@
                             <!-- Goa Special -->
 
                             <a
-                                href="./goa-special.php"
+                                href="./product-details-goa.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Goa Special
@@ -771,7 +761,7 @@
                             <!-- Golden Moments -->
 
                             <a
-                                href="./golden-moments.php"
+                                href="./productdetailsgolden-moments.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Golden Moments
@@ -781,7 +771,7 @@
                             <!-- Premium Pralines -->
 
                             <a
-                                href="./premium-pralines.php"
+                                href="./PremiumPralines.php"
                                 class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
                             >
                                 Premium Pralines
@@ -796,17 +786,6 @@
                             >
                                 Gifting Collection
                             </a>
-
-
-                            <!-- Luxor -->
-
-                            <a
-                                href="./luxor.php"
-                                class="block px-4 py-2.5 text-sm text-gray-600 hover:text-zimpy-red transition-colors"
-                            >
-                                Luxor
-                            </a>
-
 
 
                             <!-- View All -->

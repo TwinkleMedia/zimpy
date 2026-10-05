@@ -16,6 +16,7 @@
     include "./navbar.php"
     ?>
 <?php  include "./home-animation.php" ?>
+ <?php include "./hero-slider.php"; ?>
     <!-- ============ HERO IMAGE CAROUSEL ============ -->
     <section class="relative w-full h-[240px] sm:h-[380px] md:h-[500px] lg:h-[620px] overflow-hidden">
 

@@ -6,10 +6,6 @@
         transform: scaleX(0); transform-origin: left; z-index: 9999; pointer-events: none;
     }
 
-    /* Hero banner: slow push-in */
-    #carouselTrack img { animation: heroZoom 16s ease-in-out infinite alternate; }
-    @keyframes heroZoom { from { transform: scale(1); } to { transform: scale(1.07); } }
-
     /* Decorative gold circles drift */
     .deco-float { animation: decoFloat 12s ease-in-out infinite alternate; }
     @keyframes decoFloat { from { transform: translate(0, 0); } to { transform: translate(-18px, 22px); } }
@@ -27,7 +23,7 @@
     .js-anim .reveal.in         { opacity: 1; transform: none; }
 
     @media (prefers-reduced-motion: reduce) {
-        #carouselTrack img, .deco-float { animation: none !important; }
+        .deco-float { animation: none !important; }
     }
 </style>
 
