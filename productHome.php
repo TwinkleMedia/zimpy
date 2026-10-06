@@ -161,7 +161,7 @@
                     <!-- 08 - ORLEN -->
                     <a href="./product-details-orlen.php" class="zimpy-product-slide group shrink-0 w-[82%] sm:w-[48%] lg:w-[31.8%] snap-start">
                         <div class="relative overflow-hidden bg-[#E9E2D9] aspect-[4/4.5]">
-                            <img src="./assets/" alt="Zimpy Orlen" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
+                            <img src="./assets/PistachioandOrange.png" alt="Zimpy Orlen" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
                             <span class="absolute top-5 left-5 font-montserrat text-xs font-semibold tracking-wider text-[#351B16]/60">08</span>
                             <span class="absolute bottom-5 right-5 w-11 h-11 bg-white flex items-center justify-center opacity-0 translate-y-3 group-hover:opacity-100 group-group-hover:translate-y-0 transition-all duration-300">→</span>
                         </div>
@@ -177,7 +177,7 @@
                     <!-- 09 - GREETINGS -->
                     <a href="./product-details-greetings.php" class="zimpy-product-slide group shrink-0 w-[82%] sm:w-[48%] lg:w-[31.8%] snap-start">
                         <div class="relative overflow-hidden bg-[#FFF0E5] aspect-[4/4.5]">
-                            <img src="assets/images/products/greetings.jpg" alt="Zimpy Greetings" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
+                            <img src="./assets/Greetings.png" alt="Zimpy Greetings" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
                             <span class="absolute top-5 left-5 font-montserrat text-xs font-semibold tracking-wider text-[#351B16]/60">09</span>
                             <span class="absolute bottom-5 right-5 w-11 h-11 bg-white flex items-center justify-center opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">→</span>
                         </div>
@@ -193,7 +193,7 @@
                     <!-- 10 - GOA SPECIAL -->
                     <a href="./product-details-goa.php" class="zimpy-product-slide group shrink-0 w-[82%] sm:w-[48%] lg:w-[31.8%] snap-start">
                         <div class="relative overflow-hidden bg-[#E8F2DF] aspect-[4/4.5]">
-                            <img src="assets/images/products/goa-special.jpg" alt="Zimpy Goa Special" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
+                            <img src="./assets/ZimpyGoaSpecial.png" alt="Zimpy Goa Special" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
                             <span class="absolute top-5 left-5 font-montserrat text-xs font-semibold tracking-wider text-[#351B16]/60">10</span>
                             <span class="absolute bottom-5 right-5 w-11 h-11 bg-white flex items-center justify-center opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">→</span>
                         </div>
@@ -209,7 +209,7 @@
                     <!-- 11 - GOLDEN MOMENTS -->
                     <a href="./productdetailsgolden-moments.php" class="zimpy-product-slide group shrink-0 w-[82%] sm:w-[48%] lg:w-[31.8%] snap-start">
                         <div class="relative overflow-hidden bg-[#F8E5A7] aspect-[4/4.5]">
-                            <img src="assets/images/products/golden-moments.jpg" alt="Zimpy Golden Moments" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
+                            <img src="./assets/ZimpyGoldenMoments.png" alt="Zimpy Golden Moments" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
                             <span class="absolute top-5 left-5 font-montserrat text-xs font-semibold tracking-wider text-[#351B16]/60">11</span>
                             <span class="absolute bottom-5 right-5 w-11 h-11 bg-white flex items-center justify-center opacity-0 translate-y-3 group-hover:translate-y-0 transition-all duration-300">→</span>
                         </div>
@@ -225,7 +225,7 @@
                     <!-- 12 - PREMIUM PRALINES -->
                     <a href="./PremiumPralines.php" class="zimpy-product-slide group shrink-0 w-[82%] sm:w-[48%] lg:w-[31.8%] snap-start">
                         <div class="relative overflow-hidden bg-[#E8D8CB] aspect-[4/4.5]">
-                            <img src="assets/images/products/premium-pralines.jpg" alt="Zimpy Premium Pralines" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
+                            <img src="./assets/" alt="Zimpy Premium Pralines" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]">
                             <span class="absolute top-5 left-5 font-montserrat text-xs font-semibold tracking-wider text-[#351B16]/60">12</span>
                             <span class="absolute bottom-5 right-5 w-11 h-11 bg-white flex items-center justify-center opacity-0 translate-y-3 group-hover:translate-y-0 transition-all duration-300">→</span>
                         </div>
