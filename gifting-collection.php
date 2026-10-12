@@ -16,7 +16,6 @@
 </head>
 <body>
 <?php include "./navbar.php"; ?>
-
 <!-- ========================================= -->
 <!-- SIMPLE BANNER HERO -->
 <!-- ========================================= -->
@@ -198,14 +197,14 @@
 
                 <!-- Buttons -->
                 <div class="mt-8 flex flex-col sm:flex-row gap-3">
-                    <a href="/contact.php"
+                    <a href="./contact.php"
                        class="group inline-flex items-center justify-center gap-2 bg-[#351B16] hover:bg-[#4A241D] text-white px-7 py-3.5 font-montserrat text-xs font-semibold transition-colors duration-300">
                         Enquire Now
                         <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 12h14M13 6l6 6-6 6" />
                         </svg>
                     </a>
-                    <a href="/products.html"
+                    <a href="/product.php"
                        class="inline-flex items-center justify-center border border-[#351B16]/20 hover:border-[#C9A227] text-[#351B16] hover:text-[#8C6D18] px-7 py-3.5 font-montserrat text-xs font-semibold transition-colors duration-300">
                         All Products
                     </a>

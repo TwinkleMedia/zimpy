@@ -309,7 +309,7 @@
             <div class="text-center mt-10">
 
                 <a
-                    href="/products.html"
+                    href="/product.php"
                     class="inline-flex items-center gap-3 border border-[#351B16] px-7 py-3.5 font-montserrat text-sm font-semibold text-[#351B16] hover:bg-[#E8BF6A] hover:border-[#E8BF6A] hover:text-[#351B16] transition-all duration-300"
                 >
                     View All Products

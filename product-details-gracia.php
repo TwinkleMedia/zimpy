@@ -118,7 +118,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 12h14M13 6l6 6-6 6" />
                         </svg>
                     </a>
-                    <a href="/products.html"
+                    <a href="/product.php"
                        class="inline-flex items-center justify-center border border-[#351B16]/20 hover:border-[#C9A227] text-[#351B16] hover:text-[#8C6D18] px-7 py-3.5 font-montserrat text-xs font-semibold transition-colors duration-300">
                         All Products
                     </a>
