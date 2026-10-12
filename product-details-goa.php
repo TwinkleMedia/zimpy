@@ -135,7 +135,7 @@
 
                 <!-- Buttons -->
                 <div class="mt-8 flex flex-col sm:flex-row gap-3">
-                    <a href="/contact.html"
+                    <a href="/contact.php"
                        class="group inline-flex items-center justify-center gap-2 bg-[#351B16] hover:bg-[#4A241D] text-white px-7 py-3.5 font-montserrat text-xs font-semibold transition-colors duration-300">
                         Enquire Now
                         <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -168,7 +168,7 @@
 
                     <li>
                         <a
-                            href="/contact.html"
+                            href="/contact.php"
                             class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300">
                             Contact Us
                         </a>
