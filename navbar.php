@@ -471,7 +471,7 @@
                     <!-- ============================= -->
 
                     <a
-                        href="./content.php"
+                        href="./contact.php"
                         class="relative text-sm font-semibold text-zimpy-cocoa hover:text-zimpy-red transition-colors duration-300 py-2 group"
                     >
 
