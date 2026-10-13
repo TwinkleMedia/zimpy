@@ -195,89 +195,82 @@
                 <div class="grid grid-cols-2 gap-x-6 gap-y-3">
 
                     <a
-                        href="/products/lovita.html"
+                        href="./lovita.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Lovita
                     </a>
 
                     <a
-                        href="/products/dairy-luxe.html"
+                        href="./product-details-dairy-luxe.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Dairy Luxe
                     </a>
 
                     <a
-                        href="/products/gloria.html"
+                        href="./product-details-gloria.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Gloria
                     </a>
 
                     <a
-                        href="/products/choco-surfer.html"
+                        href="./product-details-choco-surfer.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Choco Surfer
                     </a>
 
                     <a
-                        href="/products/gracia.html"
+                        href="./product-details-gracia.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Gracia
                     </a>
 
                     <a
-                        href="/products/choco-lush.html"
+                        href="./product-details-choco-lush.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Choco Lush
                     </a>
 
                     <a
-                        href="/products/le-reve.html"
+                        href="./product-details-le-reve.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Le Reve
                     </a>
 
                     <a
-                        href="/products/orlen.html"
+                        href="./product-details-orlen.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Orlen
                     </a>
 
                     <a
-                        href="/products/greetings.html"
+                        href="./product-details-greetings.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Greetings
                     </a>
 
                     <a
-                        href="/products/goa-special.html"
+                        href="./product-details-goa.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Goa Special
                     </a>
 
                     <a
-                        href="/products/golden-moments.html"
+                        href="./productdetailsgolden-moments.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Golden Moments
                     </a>
 
                     <a
-                        href="/products/premium-pralines.html"
+                        href="./PremiumPralines.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Premium Pralines
                     </a>
 
                     <a
-                        href="/products/gifting-collection.html"
+                        href="./gifting-collection.php"
                         class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
                         Gifting Collection
                     </a>
-
-                    <a
-                        href="/products/luxor.html"
-                        class="font-montserrat text-sm text-white/60 hover:text-[#C9A227] transition-colors duration-300">
-                        Luxor
-                    </a>
-
                 </div>
 
             </div>
@@ -477,13 +470,13 @@
                 class="flex items-center gap-5">
 
                 <a
-                    href="/privacy-policy.html"
+                    href="/privacy-policy.php"
                     class="font-montserrat text-[11px] sm:text-xs text-white/40 hover:text-white transition-colors duration-300">
                     Privacy Policy
                 </a>
 
                 <a
-                    href="/terms.html"
+                    href="/terms.php"
                     class="font-montserrat text-[11px] sm:text-xs text-white/40 hover:text-white transition-colors duration-300">
                     Terms & Conditions
                 </a>
