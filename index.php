@@ -146,7 +146,7 @@
                     <div class="relative">
 
                         <img
-                            src="assets/aboutus.png"
+                            src="assets/aboutNew.png"
                             alt="Zimpy confectionery"
                             class="w-full h-[320px] sm:h-[430px] lg:h-[500px] object-cover" />
 
