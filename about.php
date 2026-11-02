@@ -123,10 +123,6 @@ include "./navbar.php"
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 12h14M13 6l6 6-6 6" />
                         </svg>
                     </a>
-                    <a href="/contact.php"
-                        class="inline-flex items-center justify-center gap-2 w-full sm:w-auto border border-[#351B16]/20 hover:border-[#C9A227] text-[#351B16] hover:text-[#8C6D18] px-6 py-3 font-montserrat text-[11px] sm:text-xs font-semibold transition-all duration-300">
-                        Become a Partner
-                    </a>
                 </div>
 
                 <div class="hero-in mt-6 flex items-center justify-center lg:justify-start gap-2.5" style="--d:750ms">
@@ -294,7 +290,7 @@ include "./navbar.php"
             <div class="relative order-2 lg:order-1">
 
                 <div class="story-img relative overflow-hidden rounded-sm">
-                    <img src="./assets/aboutus.png" alt="Zimpy Chocolate and Confectionery Products"
+                    <img src="./assets/aboutNew.png" alt="Zimpy Chocolate and Confectionery Products"
                         class="w-full h-[320px] sm:h-[400px] lg:h-[500px] object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#351B16]/20 via-transparent to-transparent"></div>
                 </div>

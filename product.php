@@ -162,7 +162,7 @@
                         experience to every occasion.
                     </p>
 
-                    <a href="#"
+                    <a href="./lovita.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -206,7 +206,7 @@
                         and chocolate lovers.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-dairy-luxe.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -270,7 +270,7 @@
                         associated with the brand.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-gloria.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -314,7 +314,7 @@
                         confectionery experience.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-choco-surfer.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -378,7 +378,7 @@
                         the brand.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-gracia.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -421,7 +421,7 @@
                         with a range designed for enjoyable everyday moments.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-choco-lush.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -482,7 +482,7 @@
                         for those looking for an indulgent chocolate experience.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-le-reve.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -523,7 +523,7 @@
                         lovers.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-orlen.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -582,7 +582,7 @@
                         thoughtful moments.
                     </p>
 
-                    <a href="#"
+                    <a href="./gifting-collection.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -623,7 +623,7 @@
                         special product offering.
                     </p>
 
-                    <a href="#"
+                    <a href="./product-details-goa.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -681,7 +681,7 @@
                         adding a premium touch to the Zimpy gifting portfolio.
                     </p>
 
-                    <a href="#"
+                    <a href="./productdetailsgolden-moments.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -721,7 +721,7 @@
                         created for premium chocolate and gifting occasions.
                     </p>
 
-                    <a href="#"
+                    <a href="./PremiumPralines.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
@@ -734,7 +734,7 @@
                 <div class="overflow-hidden rounded-2xl bg-[#F4E5D3] md:order-2">
 
                     <img
-                        src="./assets/"
+                        src="./assets/p"
                         alt="Zimpy Premium Pralines"
                         class="w-full h-[280px] md:h-[380px] object-cover hover:scale-105 transition duration-500">
 
@@ -779,7 +779,7 @@
                         together Zimpy chocolates in carefully presented formats.
                     </p>
 
-                    <a href="#"
+                    <a href="./gifting-collection.php"
                         class="inline-flex items-center gap-2 mt-7 bg-[#A51C30] hover:bg-[#861626]
                     text-white text-sm font-semibold px-6 py-3 rounded-full transition duration-300">
 
