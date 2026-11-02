@@ -21,8 +21,8 @@
     <section class="relative w-full h-[240px] sm:h-[380px] md:h-[500px] lg:h-[620px] overflow-hidden">
 
         <div id="carouselTrack" class="flex h-full w-full transition-transform duration-700 ease-in-out">
-            <img src="./assets/banner1.png" alt="" class="w-full h-full object-cover flex-shrink-0">
-            <img src="./assets/banner2.png" alt="" class="w-full h-full object-cover flex-shrink-0">
+            <img src="./assets/New Banner.png" alt="" class="w-full h-full object-cover flex-shrink-0">
+            <img src="./assets/New Banner 2.png" alt="" class="w-full h-full object-cover flex-shrink-0">
             <!-- <img src="./assets/banner3.jpg" alt="" class="w-full h-full object-cover flex-shrink-0">
     <img src="./assets/banner4.jpg" alt="" class="w-full h-full object-cover flex-shrink-0"> -->
         </div>
