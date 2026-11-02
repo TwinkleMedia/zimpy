@@ -360,16 +360,6 @@ include "./navbar.php"
                     </div>
                 </div>
 
-                <div class="story-link mt-8">
-                    <a href="/about.html" class="group inline-flex items-center gap-3 font-montserrat text-xs sm:text-sm font-semibold text-[#351B16]">
-                        Discover Our Story
-                        <span class="flex items-center justify-center w-7 h-7 border border-[#351B16]/20 group-hover:border-[#C9A227] group-hover:bg-[#C9A227] transition-all duration-300">
-                            <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 12h14M13 6l6 6-6 6" />
-                            </svg>
-                        </span>
-                    </a>
-                </div>
             </div>
         </div>
     </div>
