@@ -116,7 +116,7 @@ include "./navbar.php"
                 </p>
 
                 <div class="hero-in mt-6 flex flex-col sm:flex-row items-center lg:justify-start justify-center gap-2.5" style="--d:600ms">
-                    <a href="/products.html"
+                    <a href="./product.php"
                         class="group inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-[#351B16] hover:bg-[#4A241D] text-white px-6 py-3 font-montserrat text-[11px] sm:text-xs font-semibold transition-all duration-300">
                         Explore Products
                         <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
