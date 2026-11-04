@@ -152,7 +152,7 @@
 
                     <li>
                         <a
-                            href="/about.html"
+                            href="about.php"
                             class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300">
                             About Us
                         </a>
@@ -160,7 +160,7 @@
 
                     <li>
                         <a
-                            href="/products.html"
+                            href="product.php"
                             class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300">
                             Our Products
                         </a>
@@ -168,7 +168,7 @@
 
                     <li>
                         <a
-                            href="/contact.php"
+                            href="./contact.php"
                             class="font-montserrat text-sm text-white/60 hover:text-white transition-colors duration-300">
                             Contact Us
                         </a>
