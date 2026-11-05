@@ -494,7 +494,7 @@
                 <div class="hidden lg:block">
 
                     <a
-                        href="./assets/zimpyProducts.pdf"
+                        href="./assets/Gifting catlogue.pdf"
                         class="inline-flex items-center gap-2 bg-zimpy-red hover:bg-zimpy-darkred text-white font-montserrat font-semibold text-sm px-6 py-3.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
                     >
 
