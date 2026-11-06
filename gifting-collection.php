@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gifting Collection | Zimpy</title>
+    <title>Golden Moments | Zimpy</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +12,23 @@
     <style>
         .font-montserrat { font-family: 'Montserrat', sans-serif; }
         .font-playfair { font-family: 'Playfair Display', serif; }
+
+        /* Soft light behind the product */
+        .product-stage {
+            background: radial-gradient(circle at 50% 45%, #FFFFFF 0%, #FBF6EA 55%, #F3EAD6 100%);
+        }
+        @keyframes float-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+        .float-in { animation: float-in .8s cubic-bezier(.2,.8,.2,1) both; }
+
+        a:focus-visible { outline: 2px solid #C9A227; outline-offset: 3px; }
+        @media (prefers-reduced-motion: reduce) { .float-in { animation: none; } }
     </style>
 </head>
-<body>
+<body class="bg-[#F8F3EA] antialiased">
 <?php include "./navbar.php"; ?>
+
 <!-- ========================================= -->
-<!-- SIMPLE BANNER HERO -->
+<!-- BANNER HERO -->
 <!-- ========================================= -->
 <section class="relative bg-[#351B16] overflow-hidden">
     <div class="absolute -top-20 -right-20 w-56 h-56 rounded-full border border-[#C9A227]/20"></div>
@@ -25,9 +36,10 @@
 
     <div class="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-14 sm:py-16 lg:py-20 text-center">
         <h1 class="font-playfair text-[44px] sm:text-6xl lg:text-7xl font-semibold text-[#C9A227] leading-none">
-            Gifting Collection
+            Golden Moments
         </h1>
-        <div class="mt-5 flex items-center justify-center gap-3">
+        <p class="mt-4 font-montserrat text-sm sm:text-base text-white/60">Premium milk chocolate pralines in a 700 gm pouch</p>
+        <div class="mt-6 flex items-center justify-center gap-3">
             <span class="w-10 h-[1px] bg-[#C9A227]"></span>
             <span class="w-2 h-2 rotate-45 bg-[#C9A227]"></span>
             <span class="w-10 h-[1px] bg-[#C9A227]"></span>
@@ -39,157 +51,73 @@
 <!-- ========================================= -->
 <!-- PRODUCT INFORMATION -->
 <!-- ========================================= -->
-<section class="bg-[#F8F3EA] py-14 sm:py-20 lg:py-24">
+<section class="py-14 sm:py-20 lg:py-24">
     <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
             <!-- IMAGE -->
-            <div class="relative lg:sticky lg:top-24">
-                <div class="bg-white border border-[#351B16]/10 p-8 sm:p-12 flex items-center justify-center min-h-[320px] sm:min-h-[440px]">
-                    <img src="./assets/GiftCollection.png" alt="Zimpy Gifting Collection Premium Centre Filled Chocolates"
-                         class="w-full max-w-[300px] sm:max-w-[360px] h-auto object-contain drop-shadow-[0_20px_25px_rgba(53,27,22,0.2)]">
+            <div class="relative">
+                <div class="product-stage border border-[#351B16]/10 p-8 sm:p-12 flex items-center justify-center min-h-[340px] sm:min-h-[480px]">
+                    <img src="./assets/ZimpyGoldenMoments.png" alt="Zimpy Golden Moments Premium Chocolate Pralines"
+                         class="float-in w-full max-w-[300px] sm:max-w-[380px] h-auto object-contain drop-shadow-[0_24px_28px_rgba(53,27,22,0.25)]">
                 </div>
-                <div class="absolute -bottom-3 -right-3 w-20 h-20 sm:w-24 sm:h-24 border border-[#C9A227]/40 -z-0 pointer-events-none"></div>
+                <div class="absolute -bottom-3 -right-3 w-20 h-20 sm:w-24 sm:h-24 border border-[#C9A227]/50 -z-10 pointer-events-none"></div>
+                <div class="absolute -top-3 -left-3 w-12 h-12 border-t border-l border-[#C9A227]/60 pointer-events-none"></div>
             </div>
 
             <!-- DETAILS -->
             <div>
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="w-8 h-[1px] bg-[#C9A227]"></span>
-                    <span class="font-montserrat text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-[#8C6D18]">Zimpy Chocolate</span>
-                </div>
+                <p class="font-montserrat text-sm font-semibold text-[#8C6D18]">Zimpy Chocolate</p>
 
-                <h2 class="font-playfair text-[32px] sm:text-4xl lg:text-[44px] leading-[1.1] font-semibold text-[#351B16]">
-                    Gifting Collection
-                    <span class="block text-[#C9A227]">Premium Centre Filled</span>
+                <h2 class="mt-3 font-playfair text-[34px] sm:text-4xl lg:text-5xl leading-[1.1] font-semibold text-[#351B16]">
+                    Golden Moments Premium Chocolate Pralines
                 </h2>
 
                 <p class="mt-5 font-montserrat text-sm sm:text-[15px] leading-7 text-[#351B16]/70 max-w-xl">
-                    The Gifting Collection is a set of premium centre-filled chocolates in four ranges:
-                    Signature, Excellence, Luxor and Seasons. Each range comes in its own gift box
-                    shape, so there is a pack for every occasion.
+                    Golden Moments is a premium assortment of milk chocolate pralines.
+                    It comes in two ranges, Golden Moments and Premium Pralines,
+                    both in a generous 700 gm pouch.
                 </p>
 
-                <!-- Ranges -->
-                <div class="mt-7">
-                    <p class="font-montserrat text-[11px] font-semibold uppercase tracking-[0.18em] text-[#351B16]/50">Our Ranges</p>
+                <!-- Assortment -->
+                <div class="mt-8">
+                    <p class="font-montserrat text-sm font-semibold text-[#351B16]">Assortment</p>
                     <div class="mt-3 flex flex-wrap gap-2.5">
-                        <span class="inline-flex items-center gap-2 bg-white border border-[#351B16]/15 px-4 py-2 font-montserrat text-xs font-semibold text-[#351B16]">
-                            <span class="w-2.5 h-2.5 rounded-full bg-[#5B3A8C]"></span> Signature
-                        </span>
-                        <span class="inline-flex items-center gap-2 bg-white border border-[#351B16]/15 px-4 py-2 font-montserrat text-xs font-semibold text-[#351B16]">
-                            <span class="w-2.5 h-2.5 rounded-full bg-[#4E9A4A]"></span> Excellence
-                        </span>
-                        <span class="inline-flex items-center gap-2 bg-white border border-[#351B16]/15 px-4 py-2 font-montserrat text-xs font-semibold text-[#351B16]">
-                            <span class="w-2.5 h-2.5 rounded-full bg-[#C9A227]"></span> Luxor
-                        </span>
-                        <span class="inline-flex items-center gap-2 bg-white border border-[#351B16]/15 px-4 py-2 font-montserrat text-xs font-semibold text-[#351B16]">
-                            <span class="w-2.5 h-2.5 rounded-full bg-[#D9304F]"></span> Seasons
+                        <span class="inline-flex items-center gap-2.5 bg-white border border-[#351B16]/15 hover:border-[#C9A227] px-4 py-2.5 font-montserrat text-xs font-semibold text-[#351B16] transition-colors">
+                            <span class="w-3 h-3 rounded-full bg-[#8B4A22]"></span> Assorted Milk Chocolate
                         </span>
                     </div>
                 </div>
 
                 <!-- Pack options -->
                 <div class="mt-8">
-                    <p class="font-montserrat text-[11px] font-semibold uppercase tracking-[0.18em] text-[#351B16]/50">Pack Options</p>
+                    <p class="font-montserrat text-sm font-semibold text-[#351B16]">Pack options</p>
 
-                    <div class="mt-3 border-t border-[#351B16]/10">
+                    <div class="mt-3 bg-white border border-[#351B16]/10 divide-y divide-[#351B16]/10">
 
-                        <!-- Signature Gable -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Signature Gable Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
+                        <!-- Golden Moments Pouch -->
+                        <div class="flex items-center justify-between gap-4 p-5 sm:p-6 hover:bg-[#FBF6EA] transition-colors">
+                            <div>
+                                <p class="font-playfair text-lg sm:text-xl font-semibold text-[#351B16]">Golden Moments Pouch</p>
+                                <p class="mt-1.5 font-montserrat text-[13px] leading-5 text-[#351B16]/65">
+                                    <span class="font-semibold text-[#351B16]">700 gm</span> · 70 pieces<br>
+                                    16 pouches per carton
+                                </p>
                             </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Tall gift box</strong>, four sizes</span>
-                                <span>Colours: <strong class="text-[#351B16]">Maroon, Purple, Blue, Green</strong></span>
-                            </div>
+                            <p class="shrink-0 font-montserrat text-[22px] sm:text-2xl font-bold tracking-tight text-[#351B16]">₹ 400</p>
                         </div>
 
-                        <!-- Signature Slim -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Signature Slim Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
+                        <!-- Premium Pralines Pouch -->
+                        <div class="flex items-center justify-between gap-4 p-5 sm:p-6 hover:bg-[#FBF6EA] transition-colors">
+                            <div>
+                                <p class="font-playfair text-lg sm:text-xl font-semibold text-[#351B16]">Premium Pralines Pouch</p>
+                                <p class="mt-1.5 font-montserrat text-[13px] leading-5 text-[#351B16]/65">
+                                    <span class="font-semibold text-[#351B16]">700 gm</span> · 70 pieces<br>
+                                    16 pouches per carton
+                                </p>
                             </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Long slim box</strong></span>
-                                <span>Colours: <strong class="text-[#351B16]">Blue, Lavender, Green, Orange</strong></span>
-                            </div>
-                        </div>
-
-                        <!-- Signature Handle -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Signature Handle Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
-                            </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Window box with carry handle</strong></span>
-                                <span>Colours: <strong class="text-[#351B16]">Red, Purple, Green</strong></span>
-                            </div>
-                        </div>
-
-                        <!-- Excellence Rectangle -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Excellence Gift Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
-                            </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Rectangular gift box</strong></span>
-                                <span>Colours: <strong class="text-[#351B16]">Purple, Green</strong></span>
-                            </div>
-                        </div>
-
-                        <!-- Excellence Octagon -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Excellence Octagon Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
-                            </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Octagonal gift box</strong></span>
-                                <span>Colours: <strong class="text-[#351B16]">Pink, Green</strong></span>
-                            </div>
-                        </div>
-
-                        <!-- Luxor -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Luxor Triangle Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
-                            </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Triangular gift box</strong></span>
-                                <span>Colours: <strong class="text-[#351B16]">Black, Gold, White</strong></span>
-                            </div>
-                        </div>
-
-                        <!-- Seasons Heart -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Seasons Heart Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
-                            </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Heart-shaped gift box</strong></span>
-                                <span>Colours: <strong class="text-[#351B16]">Coral, Pink</strong></span>
-                            </div>
-                        </div>
-
-                        <!-- Seasons Oval -->
-                        <div class="py-5 border-b border-[#351B16]/10">
-                            <div class="flex items-center justify-between gap-4">
-                                <p class="font-playfair text-lg font-semibold text-[#351B16]">Seasons Oval Box</p>
-                                <p class="font-montserrat text-xs font-semibold text-[#8C6D18]">On enquiry</p>
-                            </div>
-                            <div class="mt-2 flex flex-wrap gap-x-6 gap-y-1 font-montserrat text-xs text-[#351B16]/60">
-                                <span>Format: <strong class="text-[#351B16]">Oval gift box</strong></span>
-                                <span>Colours: <strong class="text-[#351B16]">Green, Maroon, Navy, Brown</strong></span>
-                            </div>
+                            <p class="shrink-0 font-montserrat text-[22px] sm:text-2xl font-bold tracking-tight text-[#351B16]">₹ 400</p>
                         </div>
 
                     </div>
@@ -198,14 +126,14 @@
                 <!-- Buttons -->
                 <div class="mt-8 flex flex-col sm:flex-row gap-3">
                     <a href="./contact.php"
-                       class="group inline-flex items-center justify-center gap-2 bg-[#351B16] hover:bg-[#4A241D] text-white px-7 py-3.5 font-montserrat text-xs font-semibold transition-colors duration-300">
+                       class="group inline-flex items-center justify-center gap-2 bg-[#351B16] hover:bg-[#4A241D] text-white px-8 py-4 font-montserrat text-xs font-semibold transition-colors duration-300">
                         Enquire Now
-                        <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 12h14M13 6l6 6-6 6" />
                         </svg>
                     </a>
                     <a href="/product.php"
-                       class="inline-flex items-center justify-center border border-[#351B16]/20 hover:border-[#C9A227] text-[#351B16] hover:text-[#8C6D18] px-7 py-3.5 font-montserrat text-xs font-semibold transition-colors duration-300">
+                       class="inline-flex items-center justify-center border border-[#351B16]/25 hover:border-[#C9A227] hover:bg-white text-[#351B16] px-8 py-4 font-montserrat text-xs font-semibold transition-colors duration-300">
                         All Products
                     </a>
                 </div>
@@ -219,48 +147,52 @@
 <!-- DESCRIPTION -->
 <!-- ========================================= -->
 <section class="bg-white py-14 sm:py-20 lg:py-24">
-    <div class="max-w-4xl mx-auto px-5 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto px-5 sm:px-6 lg:px-8">
 
-        <div class="flex items-center gap-3 mb-4">
-            <span class="w-8 h-[1px] bg-[#C9A227]"></span>
-            <span class="font-montserrat text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-[#8C6D18]">Description</span>
-        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16">
+            <div class="lg:col-span-2">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="w-8 h-[1px] bg-[#C9A227]"></span>
+                    <span class="font-montserrat text-sm font-semibold text-[#8C6D18]">Description</span>
+                </div>
+                <h3 class="font-playfair text-[28px] sm:text-4xl leading-[1.15] font-semibold text-[#351B16]">
+                    Premium pralines, made to be shared.
+                </h3>
+            </div>
 
-        <h3 class="font-playfair text-[28px] sm:text-4xl leading-[1.15] font-semibold text-[#351B16]">
-            Gifts that look as good <span class="text-[#C9A227]">as they taste.</span>
-        </h3>
-
-        <div class="mt-6 space-y-4 font-montserrat text-sm sm:text-[15px] leading-7 text-[#351B16]/70">
-            <p>
-                The Gifting Collection is made of premium centre-filled chocolates in
-                presentation boxes. It has four ranges: Signature, Excellence, Luxor and Seasons.
-                Each range has its own design, colours and box shape.
-            </p>
-            <p>
-                The boxes include tall gable boxes, slim boxes, handle boxes, octagonal boxes,
-                triangular boxes, heart-shaped boxes and oval boxes. Many colours are
-                available in each range.
-            </p>
-            <p>
-                With a wide choice of shapes and colours, the Gifting Collection suits festivals,
-                weddings, corporate gifting and special occasions, and gives businesses
-                a premium range for the gifting season.
-            </p>
+            <div class="lg:col-span-3 space-y-4 font-montserrat text-sm sm:text-[15px] leading-7 text-[#351B16]/70">
+                <p>
+                    Golden Moments is made of individually wrapped premium chocolate pralines in an
+                    assorted milk chocolate mix. The pouches come in a range of pack colours,
+                    with a window that shows the chocolates inside.
+                </p>
+                <p>
+                    The range has two options, Golden Moments and Premium Pralines. Both are
+                    available as a 700 gm pouch with 70 pieces, and each carton holds 16 pouches.
+                </p>
+                <p>
+                    With a premium look and a large pack size, Golden Moments suits gifting,
+                    festive occasions and retail, and gives businesses a strong shelf presence.
+                </p>
+            </div>
         </div>
 
         <!-- Highlights -->
-        <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div class="border border-[#351B16]/10 bg-[#F8F3EA] p-6">
-                <p class="font-playfair text-lg font-semibold text-[#351B16]">Four Ranges</p>
-                <p class="mt-2 font-montserrat text-xs leading-5 text-[#351B16]/55">Signature, Excellence, Luxor and Seasons.</p>
+        <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="border border-[#351B16]/10 bg-[#F8F3EA] p-6 hover:border-[#C9A227]/60 transition-colors">
+                <svg class="w-6 h-6 text-[#C9A227]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+                <p class="mt-4 font-playfair text-lg font-semibold text-[#351B16]">Premium pralines</p>
+                <p class="mt-2 font-montserrat text-xs leading-5 text-[#351B16]/60">Individually wrapped chocolate pralines.</p>
             </div>
-            <div class="border border-[#351B16]/10 bg-[#F8F3EA] p-6">
-                <p class="font-playfair text-lg font-semibold text-[#351B16]">Distinct Shapes</p>
-                <p class="mt-2 font-montserrat text-xs leading-5 text-[#351B16]/55">Gable, slim, handle, octagon, triangle, heart and oval boxes.</p>
+            <div class="border border-[#351B16]/10 bg-[#F8F3EA] p-6 hover:border-[#C9A227]/60 transition-colors">
+                <svg class="w-6 h-6 text-[#C9A227]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5" fill="currentColor"/></svg>
+                <p class="mt-4 font-playfair text-lg font-semibold text-[#351B16]">Assorted milk chocolate</p>
+                <p class="mt-2 font-montserrat text-xs leading-5 text-[#351B16]/60">A mixed assortment in every pouch.</p>
             </div>
-            <div class="border border-[#351B16]/10 bg-[#F8F3EA] p-6">
-                <p class="font-playfair text-lg font-semibold text-[#351B16]">Gift Ready</p>
-                <p class="mt-2 font-montserrat text-xs leading-5 text-[#351B16]/55">Premium presentation boxes in many colours.</p>
+            <div class="border border-[#351B16]/10 bg-[#F8F3EA] p-6 hover:border-[#C9A227]/60 transition-colors">
+                <svg class="w-6 h-6 text-[#C9A227]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7.5 12 3 4 7.5v9L12 21l8-4.5v-9z"/><path d="M4 7.5 12 12l8-4.5M12 12v9"/></svg>
+                <p class="mt-4 font-playfair text-lg font-semibold text-[#351B16]">700 gm pouch</p>
+                <p class="mt-2 font-montserrat text-xs leading-5 text-[#351B16]/60">70 pieces in each resealable-style pouch.</p>
             </div>
         </div>
     </div>
