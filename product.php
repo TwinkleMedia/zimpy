@@ -43,6 +43,10 @@ $e = fn($s) => htmlspecialchars($s, ENT_QUOTES);
                 #4A1A17;
         }
 
+        /* Mobile carousel: hide scrollbar, smooth swipe */
+        .zp-scroll { -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+        .zp-scroll::-webkit-scrollbar { display: none; }
+
         /* Cards */
         .zp-card { transition: transform .35s ease, box-shadow .35s ease; }
         .zp-card:hover { transform: translateY(-6px); box-shadow: 0 22px 40px -18px rgba(74,26,23,.45); }
@@ -99,21 +103,21 @@ $e = fn($s) => htmlspecialchars($s, ENT_QUOTES);
     <main class="max-w-6xl mx-auto px-5 pt-6 pb-20 md:pb-28">
 
         <!-- Filters -->
-        <div class="flex flex-wrap items-center justify-center gap-2.5 mb-12" role="group" aria-label="Filter products by collection">
-            <button type="button" class="zp-chip px-5 py-2 rounded-full border border-[#D8B866] text-sm font-semibold" data-filter="all" aria-pressed="true">
+        <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-2.5 mb-8 sm:mb-12" role="group" aria-label="Filter products by collection">
+            <button type="button" class="zp-chip px-3.5 py-1.5 text-xs sm:px-5 sm:py-2 sm:text-sm rounded-full border border-[#D8B866] font-semibold" data-filter="all" aria-pressed="true">
                 All (<?= count($products) ?>)
             </button>
             <?php foreach ($cats as $c): ?>
-                <button type="button" class="zp-chip px-5 py-2 rounded-full border border-[#D8B866] text-sm font-semibold" data-filter="<?= $e($c) ?>" aria-pressed="false">
+                <button type="button" class="zp-chip px-3.5 py-1.5 text-xs sm:px-5 sm:py-2 sm:text-sm rounded-full border border-[#D8B866] font-semibold" data-filter="<?= $e($c) ?>" aria-pressed="false">
                     <?= $e($c) ?>
                 </button>
             <?php endforeach; ?>
         </div>
 
-        <!-- Grid -->
-        <div id="zp-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <!-- Grid (swipe carousel on mobile, grid from sm up) -->
+        <div id="zp-grid" class="zp-scroll flex overflow-x-auto snap-x snap-mandatory gap-4 -mx-5 px-5 pt-2 pb-6 sm:mx-0 sm:px-0 sm:pt-0 sm:pb-0 sm:overflow-visible sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-6 md:gap-8">
             <?php foreach ($products as [$name, $cat, $img, $link, $desc]): ?>
-                <article class="zp-card group relative flex flex-col overflow-hidden rounded-2xl bg-white border border-[#EBD9BC]" data-cat="<?= $e($cat) ?>">
+                <article class="zp-card group relative flex flex-col overflow-hidden rounded-2xl bg-white border border-[#EBD9BC] shrink-0 w-[80%] snap-center sm:w-auto sm:shrink" data-cat="<?= $e($cat) ?>">
 
                     <div class="relative overflow-hidden bg-[#F4E5D3] aspect-[4/3]">
                         <img src="<?= $e($img) ?>" alt="Zimpy <?= $e($name) ?>" loading="lazy"
@@ -148,6 +152,7 @@ $e = fn($s) => htmlspecialchars($s, ENT_QUOTES);
         // Collection filter
         (function () {
             var chips = document.querySelectorAll('.zp-chip');
+            var grid = document.getElementById('zp-grid');
             var cards = document.querySelectorAll('#zp-grid [data-cat]');
             var empty = document.getElementById('zp-empty');
             chips.forEach(function (chip) {
@@ -160,6 +165,8 @@ $e = fn($s) => htmlspecialchars($s, ENT_QUOTES);
                         if (show) shown++;
                     });
                     empty.classList.toggle('hidden', shown !== 0);
+                    // jump back to the first card on mobile carousel
+                    grid.scrollTo({ left: 0, behavior: 'smooth' });
                 });
             });
         })();
